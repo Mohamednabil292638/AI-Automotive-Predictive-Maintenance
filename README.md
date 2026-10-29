@@ -12,6 +12,59 @@ Built with Python, SQL, Scikit-learn, Streamlit, Power BI, and synthetic automot
 
 > \*\*Research Prototype:\*\* The dataset is synthetic and is not Mercedes-Benz/OEM data. The system demonstrates automotive AI, predictive-maintenance, anomaly-detection, and aftersales/spare-part analytics workflows.
 
+---
+
+## 🚀 Live Demo
+
+### **[▶ Launch the Automotive Intelligence Command Center](https://automotive-predictive-maintenance.streamlit.app/)**
+
+**Interactive Streamlit Demo**
+
+Explore:
+
+- 🚗 Fleet-level vehicle risk prioritization
+- 🧠 Failure-event classification
+- 🔎 Multivariate anomaly detection
+- ❤️ Engine, brake & battery health scoring
+- ⚡ Battery & electrical diagnostics
+- 🔧 Maintenance recommendations
+- 🧩 Spare-part prioritization
+- 📊 Model performance and engineering KPIs
+
+> **Demo:** The application is deployed as a public Streamlit research demonstration using synthetic automotive telemetry.
+
+---
+
+## ⭐ Project Highlights
+
+| Capability | Implementation |
+|---|---|
+| Failure-event classification | Logistic Regression |
+| Anomaly detection | Isolation Forest |
+| Component health | Engine, Brake, Battery |
+| Vehicle risk engine | Failure + anomaly + health signals |
+| Spare-part intelligence | Generic component-to-part prioritization |
+| Dashboard | Streamlit Automotive Intelligence Cockpit |
+| Business analytics | Power BI |
+| Dataset | 1,970 telemetry records / 50 vehicles |
+| Failure events | 35 |
+| Model ROC-AUC | **0.997** |
+| Model PR-AUC | **0.920** |
+| Failure Recall | **0.857** |
+| Failure F1 | **0.857** |
+
+---
+
+## 🔗 Project Resources
+
+- **Live Demo:** Automotive Predictive Maintenance Streamlit Application
+- **Source Code:** GitHub Repository
+- **Analytics:** Power BI Dashboard
+- **Model Artifacts:** Scikit-learn + Joblib
+- **Documentation:** Architecture, methodology, evaluation and limitations included below
+
+---
+
 
 
 \---
