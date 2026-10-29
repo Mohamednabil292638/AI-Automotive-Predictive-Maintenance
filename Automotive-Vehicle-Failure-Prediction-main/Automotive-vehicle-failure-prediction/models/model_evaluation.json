@@ -1,0 +1,36 @@
+{
+  "model_type": "LogisticRegression",
+  "random_state": 42,
+  "dataset_rows": 1970,
+  "feature_count": 32,
+  "training_rows": 1576,
+  "test_rows": 394,
+  "failure_events": 35,
+  "metrics": {
+    "accuracy": 0.9949238578680203,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1": 0.8571428571428571,
+    "roc_auc": 0.9966777408637874,
+    "pr_auc": 0.919642857142857
+  },
+  "confusion_matrix": [
+    [
+      386,
+      1
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "target": "failure_target",
+  "leakage_columns": [
+    "failure_type",
+    "failure_date",
+    "failure_target",
+    "engine_failure_imminent",
+    "brake_issue_imminent",
+    "battery_issue_imminent"
+  ]
+}
